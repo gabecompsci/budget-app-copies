@@ -1,16 +1,13 @@
-//
+
 //  ContentView.swift
 //  Budget app (list)
-//
+
 //  Created by gabriel carreno on 6/26/24.
-//
-
-// 6-26 figuring out how to create different sections for new budget entries.. to group them as category/amount seperately and have them appear as such.
-//learn how to make groupbox be a view condition if a new item is added to a list through the button() feature
 
 
-//                    List((1...budgetamount.count-1), id: \.self)
-//                    mention this error to tutor
+//// 6-26 figuring out how to create different sections for new budget entries.. to group them as category/amount seperately and have them appear as such.
+//learn how to make groupbox be a view condition if a new item is added to a list through the button() feature 
+
 
 import SwiftUI
 import UIKit
@@ -213,20 +210,6 @@ struct ContentView: View {
 
 }
 
-
-
-
-//func save2() -> Void {
-//    let temp2 = budgetamount
-//    let key2 = UserDefaults.standard
-//    key2.set(temp2, forKey: "budgetamount")
-//}
-//func load2() -> Void {
-//    let key2 = UserDefaults.standard
-//    let temp2 = key2.string(forKey: "budgetamount") ?? ""
-//    let temparray2 = temp2.components(separatedBy: "/[split2]/")
-//    budgetamount = temparray2
-//}
 
 
 

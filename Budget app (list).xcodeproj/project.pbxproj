@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35249FC72C716A7D00DB89BC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35249FC62C716A7D00DB89BC /* File.swift */; };
 		3575CA652C4CB4A90039D16C /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575CA642C4CB4A90039D16C /* Expenses.swift */; };
 		3575CA672C4CF69E0039D16C /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575CA662C4CF69E0039D16C /* Income.swift */; };
 		359583FF2C2CDA3B00E469DA /* Budget_app__list_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359583FE2C2CDA3B00E469DA /* Budget_app__list_App.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35249FC62C716A7D00DB89BC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		3575CA642C4CB4A90039D16C /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		3575CA662C4CF69E0039D16C /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
 		359583FB2C2CDA3B00E469DA /* Budget app (list).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget app (list).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +39,6 @@
 		359583F22C2CDA3B00E469DA = {
 			isa = PBXGroup;
 			children = (
-				35249FC62C716A7D00DB89BC /* File.swift */,
 				359583FD2C2CDA3B00E469DA /* Budget app (list) */,
 				359583FC2C2CDA3B00E469DA /* Products */,
 			);
@@ -146,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35249FC72C716A7D00DB89BC /* File.swift in Sources */,
 				3575CA652C4CB4A90039D16C /* Expenses.swift in Sources */,
 				359584012C2CDA3B00E469DA /* ContentView.swift in Sources */,
 				3575CA672C4CF69E0039D16C /* Income.swift in Sources */,
