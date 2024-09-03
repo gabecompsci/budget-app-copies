@@ -3,7 +3,7 @@
 //  Budget app (list)
 
 //  Created by gabriel carreno on 6/26/24.
-
+//
 
 //// 6-26 figuring out how to create different sections for new budget entries.. to group them as category/amount seperately and have them appear as such.
 //learn how to make groupbox be a view condition if a new item is added to a list through the button() feature 
@@ -15,7 +15,7 @@ import UIKit
 
 struct ContentView: View {
     
-    
+ 
 
     
     @State var budgetcategory: Array<String> = []
@@ -116,7 +116,7 @@ struct ContentView: View {
                                 // ASK TUTOR IF I CAN TURN back BUTTON BLACK
                                 NavigationLink(destination: Expenses()) {
                                     GroupBox(label: Text("Expenses"), content:  {
-                                        TextField("Expenses", value: $expenseTab,  formatter: NumberFormatter()) })
+                                        Text("Expenses")  })
                 
                                     .foregroundColor(.white)
                 
@@ -216,27 +216,11 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        
+      
 }
 
 
-
-//.sheet(isPresented: $showsheet)  {
-//    NavigationView {
-//        List {
-//            TextField("Item", text: $newitemfield)
-//            TextField("Item", text: $newitemfield2)
-//            
-//        }
-//        .navigationTitle("New Entry")
-//        .toolbar{
-//            Button("add") {
-//                
-//                budgetlist.append(newitemfield)
-//                budgetlist.append(newitemfield2)
-//                showsheet.toggle()
-//
-//                
-//            }
 
 
 

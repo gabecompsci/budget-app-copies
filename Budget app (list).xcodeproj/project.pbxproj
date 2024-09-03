@@ -61,6 +61,7 @@
 				3575CA642C4CB4A90039D16C /* Expenses.swift */,
 				359584022C2CDA3F00E469DA /* Assets.xcassets */,
 				359584042C2CDA3F00E469DA /* Preview Content */,
+				35E428442C870B9100FBA219 /* Coredata */,
 			);
 			path = "Budget app (list)";
 			sourceTree = "<group>";
@@ -71,6 +72,13 @@
 				359584052C2CDA3F00E469DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35E428442C870B9100FBA219 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coredata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
