@@ -3,7 +3,7 @@
 //  Budget app (list)
 
 //  Created by gabriel carreno on 6/26/24.
-
+//
 
 //// 6-26 figuring out how to create different sections for new budget entries.. to group them as category/amount seperately and have them appear as such.
 //learn how to make groupbox be a view condition if a new item is added to a list through the button() feature 
